@@ -1,14 +1,12 @@
     #include <stdio.h>
-    int main ()
+
+int main ()
 {
-    printf("int : %d bytes\n", sizeof(int));
-    printf("short int: %d bytes\n", sizeof(short));
-    printf("long int: %d bytes\n", sizeof(long));
-    printf("signed int: %d bytes\n", sizeof(signed));
-    printf("unsigned int: %d bytes\n", sizeof(unsigned));
-    printf("short signed int: %d bytes \n", sizeof(short signed));
-    printf("short unsigned int: %d bytes \n", sizeof(short unsigned));
-    printf("long signed int: %d bytes \n", sizeof(long signed));
-    printf("long unsigned int: %d bytes \n", sizeof(long unsigned));
+    char ascii = 67;
+    printf("%c%", ascii);
+
 
 }
+//80,97,114,97,98,101,110,115,44,32,118,111,99,101,32,100,101,115,99,111,
+//98,114,105,117,32,111,32,115,101,103,114,101,100,111
+//Parabens, voce de's'cobriu o segredo
