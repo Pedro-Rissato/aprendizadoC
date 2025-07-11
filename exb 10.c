@@ -16,14 +16,15 @@ XXXXXXXXXXXXXXX
 */
 int main()
 {
+    printf("       *\n");
     printf("       X\n");
     printf("      XXX\n");
     printf("     XXXXX\n");
-    printf("    XXXXXXX\n");
-    printf("   XXXXXXXXX\n");
-    printf("  XXXXXXXXXXX\n");
-    printf(" XXXXXXXXXXXXX\n");
-    printf("XXXXXXXXXXXXXXX\n");
+    printf("    XXOXXXX\n");
+    printf("   XXXXXXXOX\n");
+    printf("  XXXOXXXXXXX\n");
+    printf(" XXXXXXOXXXXXX\n");
+    printf("XXXXXXXXXXXOXXX\n");
     printf("       XX\n");
     printf("       XX\n");
     printf("      XXXX\n");
